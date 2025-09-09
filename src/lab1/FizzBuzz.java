@@ -7,15 +7,17 @@ class FizzBuzz {
 
     public static void main(String[] args) {
         int i = 1;
-        while(i < 100) {
+        while(i <= 100) {
 
             run_fizz_buzz(i);
 
             i++;
         }
+
+        run_fizz_buzz(5);
     }
 
-    private static void run_fizz_buzz(int i) {
+    public static void run_fizz_buzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
