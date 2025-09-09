@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 public class ReduceTest {
 
-
     @Test
     public void testReduce() {
         assertEquals(9,
